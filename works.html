@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Stian Grimsrud - University of Oslo</title>
+    <link rel= "stylesheet" href = "style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <meta name="viewport" content="width=device, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  </head>
+  <body>
+    <div class="header">
+      <h2 class="logo">Peter Sundt</h2>
+      <input type="checkbox" id="chk">
+      <label for="chk" class="show-menu-btn">
+        <i class="fas fa-ellipsis-h"></i>
+      </label>
+      <ul class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="works.html">Works</a>
+        <a href="contact.html">Contact</a>
+        <label for="chk" class="hide-menu-btn">
+          <i class="fas fa-times"></i>
+        </label>
+      </ul>
+    </div>
+
+    <div class="gallery-section">
+      <div class="inner-width">
+        <h1>My Gallery</h1>
+        <div class="border"></div>
+        <div class="gallery">
+
+
+          <a href="img10.jpg" class="image">
+            <img src="img10.jpg" alt="">
+          </a>
+
+          <a href="img15.jpg" class="image">
+            <img src="img15.jpg" alt="">
+          </a>
+
+          <a href="img13.jpg" class="image">
+            <img src="img13.jpg" alt="">
+          </a>
+
+          <a href="img4.jpg" class="image">
+            <img src="img4.jpg" alt="">
+          </a>
+
+          <a href="img5.jpg" class="image">
+            <img src="img5.jpg" alt="">
+          </a>
+
+          <a href="img6.jpg" class="image">
+            <img src="img6.jpg" alt="">
+          </a>
+
+          <a href="img7.jpg" class="image">
+            <img src="img7.jpg" alt="">
+          </a>
+
+          <a href="img8.jpg" class="image">
+            <img src="img8.jpg" alt="">
+          </a>
+
+          <a href="img9.jpg" class="image">
+            <img src="img9.jpg" alt="">
+          </a>
+
+          <a href="img11.jpg" class="image">
+            <img src="img11.jpg" alt="">
+          </a>
+
+          <a href="img12.jpg" class="image">
+            <img src="img12.jpg" alt="">
+          </a>
+
+          <a href="img14.jpg" class="image">
+            <img src="img14.jpg" alt="">
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(".gallery").magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery:{
+          enabled: true
+        }
+      });
+    </script>
+  </body>
+</html>

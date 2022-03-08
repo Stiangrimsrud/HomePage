@@ -1,0 +1,73 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.hero-image{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: url(3.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.parallax-el{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: url(2.png) no-repeat 50% 50%;
+  background-size: cover;
+  top: -1.5%;
+}
+
+.parallax-el2{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: url(IMG_3738.png) no-repeat 50% 50%;
+  background-size: cover;
+  top: -2.5%;
+}
+
+.text{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 35%;
+  background: url(text.png) no-repeat 50% 50%;
+  background-size: cover;
+  mix-blend-mode: overlay;
+}
+
+.clouds{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: url(fade.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.whitespace{
+  width: 100%;
+  height: 100vh;
+}
+
+.content{
+  width: 80%;
+  margin: 0 auto;
+  padding: 80px 0;
+  font-family: Helvetica;
+}
+h1{
+  font-size: 42px;
+  font-family: Anton;
+  text-transform: uppercase;
+  text-align: center;
+}
+p{
+  line-height: 40px;
+  text-align: justify;
+}
